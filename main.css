@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    border: 1px solid;
+    display: flex;
+    width: 100%; 
+    justify-content: space-between;
+}
+
+.image {
+    width: 77px
+}
+
+.left_top {
+    display: flex;
+    width:100%; auto;
+    margin:20px;
+    justify-content: flex-start;
+}
+
+.right_top {
+    display: flex;
+    width: 24px; auto;
+    justify-content: space-around;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.middle_top {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+input {
+    width: 215px;
+    border-radius: 3px;
+    font-size: 16px;
+    height: 28px;
+    border-style: 1px; solid;
+    border shadow: none;
+    padding-left:80px;
+}
+
+
+}
+.middle_top .material-icons {
+   display: flex;
+   justify-content:center;
+}
+
+.icon {
+    position: relative;
+}
+
+.icon .material-icons {
+    position: absolute;
+    right: 140px;
+    width: 15px;
+    height: 15px;
+}
+
+
+#main {
+    display: flex;
+    border: 3px solid red;
+    align-items: flex-end;
+    padding-top:90px;
+}
+
+.feeds {
+    border:2px solid blue;
+}
+
+.article img {
+    display: flex;
+    align-items: flex-end;
+    width: 20px;
+}
+
+div.main-right img {
+    justify-content:flex-end;
+    display:inline;
+}
+
+div.article header img._6q-tv{
+    display: inline;
+    width: 32px;
+}
+
+

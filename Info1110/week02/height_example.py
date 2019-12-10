@@ -1,0 +1,5 @@
+print('Enter your height in metres: ')
+input_variable= input()
+height=float(input_variable)
+print("you entered "+str(height)+ " m")
+print("if you were 10% bigger you'd be "+ str(height*1.1)+ " m")
